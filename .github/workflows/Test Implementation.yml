@@ -10,7 +10,7 @@ concurrency:
 permissions:
   contents: write
 jobs:
-  publish-wiki:
+  test-implementation:
     runs-on: ubuntu-latest
     steps:
       - name: Checking out the repository
